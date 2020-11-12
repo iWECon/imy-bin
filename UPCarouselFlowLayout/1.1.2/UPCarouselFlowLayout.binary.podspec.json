@@ -1,0 +1,24 @@
+{
+  "name": "UPCarouselFlowLayout",
+  "version": "1.1.2",
+  "summary": "A fancy carousel flow layout for UICollectionView.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n UPCarouselFlowLayout is a fancy carousel flow layout for UICollectionView. It comes with a paginated effect and it shrinks and makes transparent the side items.",
+  "homepage": "https://github.com/ink-spot/UPCarouselFlowLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paul Ulric": "ink.and.spot@gmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/UPCarouselFlowLayout/1.1.2/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.1"
+  },
+  "source_files": "UPCarouselFlowLayout/**/*.{h,swift}",
+  "vendored_frameworks": "UPCarouselFlowLayout.framework",
+  "swift_version": "4.2"
+}
