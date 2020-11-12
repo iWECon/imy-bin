@@ -1,0 +1,26 @@
+{
+  "name": "RPCircularProgress",
+  "summary": "Swift UIView subclass with circular progress properties.",
+  "version": "0.5.0",
+  "homepage": "https://github.com/iwasrobbed/RPCircularProgress",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rob Phillips": "rob@robphillips.me"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/RPCircularProgress/0.5.0/zip",
+    "type": "zip"
+  },
+  "source_files": "Source",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "vendored_frameworks": "RPCircularProgress.framework",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "swift_version": "5.0"
+}
