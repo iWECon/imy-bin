@@ -1,0 +1,57 @@
+{
+  "name": "ReactiveCocoa",
+  "version": "11.0.0",
+  "summary": "Streams of values over time",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n ReactiveCocoa (RAC) is a Cocoa framework built on top of ReactiveSwift. It provides APIs for using ReactiveSwift with Apple's Cocoa frameworks.",
+  "homepage": "https://github.com/ReactiveCocoa/ReactiveCocoa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": "ReactiveCocoa",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/ReactiveCocoa/11.0.0/zip",
+    "type": "zip"
+  },
+  "source_files": [
+    "ReactiveCocoa/*.{swift,h,m}",
+    "ReactiveCocoa/Shared/*.{swift}",
+    "ReactiveCocoaObjC/**/*.{h,m}"
+  ],
+  "public_header_files": "ReactiveCocoaObjC/include/ObjCRuntimeAliases.h",
+  "osx": {
+    "source_files": "ReactiveCocoa/AppKit/*.{swift}"
+  },
+  "ios": {
+    "source_files": [
+      "ReactiveCocoa/UIKit/*.{swift}",
+      "ReactiveCocoa/UIKit/iOS/*.{swift}"
+    ]
+  },
+  "tvos": {
+    "source_files": "ReactiveCocoa/UIKit/*.{swift}"
+  },
+  "watchos": {
+    "exclude_files": "ReactiveCocoa/Shared/*.{swift}",
+    "source_files": "ReactiveCocoa/WatchKit/*.{swift}"
+  },
+  "module_name": "ReactiveCocoa",
+  "dependencies": {
+    "ReactiveSwift": [
+      "~> 6.2"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS[config=Release]": "$(inherited) -suppress-warnings"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2"
+  ],
+  "vendored_frameworks": "ReactiveCocoa.framework",
+  "swift_version": "5.2"
+}
