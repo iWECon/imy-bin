@@ -1,0 +1,30 @@
+{
+  "name": "ISEmojiView",
+  "version": "0.2.6",
+  "summary": "Emoji Keyboard for iOS.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n An easy to use Emoji keyboard for iOS.",
+  "homepage": "https://github.com/isaced/ISEmojiView",
+  "screenshots": "https://github.com/isaced/ISEmojiView/raw/master/screenshot1.png",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "isaced": "isaced@163.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/ISEmojiView/0.2.6/zip",
+    "type": "zip"
+  },
+  "swift_versions": "5",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Source/Classes/**/*",
+  "vendored_frameworks": "ISEmojiView.framework",
+  "resources": [
+    "ISEmojiView.framework/Resources/*.bundle",
+    "ISEmojiView.framework/Versions/A/Resources/*.bundle"
+  ],
+  "swift_version": "5"
+}
