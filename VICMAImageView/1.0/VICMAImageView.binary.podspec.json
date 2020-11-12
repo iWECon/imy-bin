@@ -1,0 +1,24 @@
+{
+  "name": "VICMAImageView",
+  "version": "1.0",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "Content Mode Animatable Image View, change image view's content mode with your animation!",
+  "homepage": "https://github.com/vitoziv/VICMAImageView",
+  "authors": {
+    "Vito Zhang": "vvitozhang@gmail.com"
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://localhost:8080/frameworks/VICMAImageView/1.0/zip",
+    "type": "zip"
+  },
+  "source_files": "VICMAImageView/*.{h,m}",
+  "vendored_frameworks": "VICMAImageView.framework",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
