@@ -1,0 +1,29 @@
+{
+  "name": "PinYin4Objc_FrameworksSupport",
+  "version": "1.1.3",
+  "summary": "PinYin4Objc.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n          PinYin4Objc is a popular objective-c library supporting convertion between Chinese(both Simplified and Tranditional) characters and most popular Pinyin systems， it's performance is very efficient, data cached at first time. The output format of pinyin could be customized.\nThis is a copy with fixed use_framework! option",
+  "homepage": "https://github.com/wrlqwe/PinYin4Objc",
+  "screenshots": "https://github.com/wrlqwe/PinYin4Objc/blob/master/ScreenShot.PNG",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wrl": "515045622@qq.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/PinYin4Objc_FrameworksSupport/1.1.3/zip",
+    "type": "zip"
+  },
+  "source_files": "PinYin4Objc/Classes/*.{h,m}",
+  "resources": [
+    "PinYin4Objc_FrameworksSupport.framework/Resources/*",
+    "PinYin4Objc_FrameworksSupport.framework/Versions/A/Resources/*"
+  ],
+  "requires_arc": true,
+  "vendored_frameworks": "PinYin4Objc_FrameworksSupport.framework"
+}
